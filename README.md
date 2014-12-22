@@ -1,5 +1,6 @@
 Retrier
 =======
+[![Build Status](https://travis-ci.org/tinchogob/retrier.png)](https://travis-ci.org/tinchogob/retrier)
 
 Simple operation retrier till callback success or max attempts are reached
 
