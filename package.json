@@ -2,6 +2,7 @@
   "name": "retrier",
   "version": "0.0.1",
   "description": "Node operation retrier till callback success or max attempts reached",
+  "main": "retrier.js",
   "keywords": [
     "retry",
     "retrier",
