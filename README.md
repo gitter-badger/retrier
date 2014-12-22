@@ -18,13 +18,13 @@ retry(10, op, function(error, response){
   
   return console.log("warning unreachable code")
 });
-´´´
+```
 
 ##retrier(n, operation, callback);
 
 Will call operation for n times untill it succeeds.
-n: count to call operation
-operation: single callback argument function (if you need args, check out async.apply, or function.bind)
-callback: final callback to be called with response or error if operation failed for n times
+- **n**: count to call operation
+- **operation**: single callback argument function (if you need args, check out async.apply, or function.bind)
+- **callback**: final callback to be called with response or error if operation failed for n times
 
 PR's are welcomed
