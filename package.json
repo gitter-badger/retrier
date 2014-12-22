@@ -1,0 +1,26 @@
+{
+  "name": "retrier",
+  "version": "0.0.1",
+  "description": "Node operation retrier till callback success or max attempts reached",
+  "keywords": [
+    "retry",
+    "retrier",
+    "callback",
+    "error",
+    "attempts"
+  ],
+  "devDependencies": {
+    "mocha": "~2.0.1",
+    "should": "~4.4.1"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tinchogob/retrier.git"
+  },
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/tinchogob/retrier"
+}
